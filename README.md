@@ -95,7 +95,9 @@ Runtime depends on hardware and dataset size.
 
 ## Outputs
 
-The notebook reports the following evaluation metrics:
+All evaluation metrics and visualizations are generated directly within the notebook output cells. No result files are written to disk by default.
+
+The notebook prints final and per-epoch metrics at the end of training and evaluation.
 
 - ROC AUC
 - Precision
@@ -103,7 +105,7 @@ The notebook reports the following evaluation metrics:
 - F1-score
 - Accuracy
 
-Optional plots such as loss curves and ROC curves may be generated depending on enabled cells.
+Plots such as training loss curves and ROC curves may be displayed inline during execution depending on enabled cells.
 
 Example performance values observed during testing include high accuracy and strong recall for the minority (fraud) class. Exact results depend on thresholds and experimental settings.
 
