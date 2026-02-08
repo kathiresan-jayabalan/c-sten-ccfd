@@ -1,8 +1,7 @@
 # Dataset Instructions
 
 We use the public **Credit Card Fraud Detection** dataset (European card transactions, anonymized features) available at:  
-[Kaggle Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)  
-*(subject to Kaggle terms of use)*
+[Kaggle Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) *(subject to Kaggle terms of use)*
 
 ## Usage
 
@@ -22,3 +21,4 @@ Use `creditcard.csv` (included as sample in repo) for testing the notebook witho
 3. **Update notebook path** if needed (currently expects `/content/drive/MyDrive/credit card /creditcard.csv` in Colab).
 
 **Note**: Sample data allows pipeline testing but **will not reproduce exact paper results**.
+
