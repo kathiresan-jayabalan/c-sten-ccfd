@@ -1,21 +1,20 @@
 # C-STEN-CCFD  
 Contrastive Spatio-Temporal Deep Learning for Credit Card Fraud Detection
 
-This repository contains a single Jupyter Notebook implementing a Contrastive Spatio-Temporal deep learning pipeline (C-STEN) for credit card fraud detection using the public Kaggle `creditcard.csv` dataset.
+This repository provides a **Jupyter Notebook** implementation of a Contrastive Spatio‑Temporal deep learning pipeline (C‑STEN) for **credit card fraud detection and evaluation** using the public Kaggle `creditcard.csv` dataset.
 
-Primary artifact:  
-notebooks/c-sten-ccfd.ipynb (end-to-end execution: data loading, training, evaluation)
+Main artifact: `notebooks/c-sten-ccfd.ipynb` (end-to-end execution: data loading → representation learning → fine‑tuning → evaluation).
 
 ---
 
 ## Overview
 
-Credit card fraud detection is a highly imbalanced binary classification problem where temporal ordering and contextual patterns play a critical role.
+Credit card fraud detection is a strongly imbalanced classification problem where  temporal ordering and contextual patterns play a critical role.
 
 This notebook implements a C-STEN-style workflow that combines:
-- Self-supervised contrastive representation learning
-- Supervised fine-tuning for fraud classification
-
+- **Self‑supervised contrastive representation learning** to learn useful sequence representations.
+- **Supervised fine‑tuning** for binary fraud classification (`Class` ∈ {0,1}).
+ 
 All stages of the experiment are implemented inside a single notebook for clarity and reproducibility.
 
 ---
@@ -24,24 +23,24 @@ All stages of the experiment are implemented inside a single notebook for clarit
 
 The notebook performs the following steps:
 
-- Load and preprocess the dataset  
+- Load and preprocess the dataset `creditcard.csv` (features, scaling/normalization as used in the notebook)  
   - Sort transactions by time  
   - Scale numeric features
-- Construct sliding temporal windows for sequence modeling
-- Generate two augmented views per sequence using noise injection and feature masking
-- Pretrain a Transformer encoder using:
-  - NT-Xent contrastive loss
-  - Temporal prediction loss
-- Fine-tune a classification head for binary fraud detection (Class ∈ {0,1})
-- Evaluate performance on a held-out test set
+- Build sequential samples (sliding windows) for spatio‑temporal / sequence modeling.
+- Generate two augmented “views” per sequence using noise injection and feature masking for contrastive learning.
+- Train a Transformer encoder backbone using:
+  - **NT‑Xent contrastive loss** (representation learning).
+  - **temporal prediction loss** (next-step / temporal target regression).
+- Fine‑tune a classifier head for binary fraud detection (Class ∈ {0,1})
+- Report validation metrics per epoch and final test metrics.
 
 ---
 
 ## Dataset
 
-The experiments use the Credit Card Fraud Detection dataset (European cardholders, anonymized features) available on Kaggle:
+The experiments use the public **Credit Card Fraud Detection** dataset (European cardholders, anonymized features) available on Kaggle:
 
-https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud (subject to Kaggle terms of use)
 
 After downloading, place the file at:
 
@@ -57,15 +56,13 @@ Tested configuration:
 - Python 3.x
 - Jupyter Notebook or JupyterLab
 - PyTorch
-- Recommended hardware: NVIDIA T4 GPU (cloud or Colab)
-
-CPU execution is supported for small-scale tests only.
+- GPU: NVIDIA T4 GPU (cloud or Colab)
 
 ---
 
 ## Dependencies
 
-The notebook relies on the following Python packages:
+The notebook relies on the following Python packages. Install dependencies from `requirements.txt`:
 
 - numpy
 - pandas
@@ -108,7 +105,13 @@ The notebook reports the following evaluation metrics:
 
 Optional plots such as loss curves and ROC curves may be generated depending on enabled cells.
 
-Example performance values observed during testing include high accuracy and strong recall for the minority (fraud) class. Exact results depend on random seeds, thresholds, and experimental settings.
+Example performance values observed during testing include high accuracy and strong recall for the minority (fraud) class. Exact results depend on thresholds and experimental settings.
+
+Accuracy ≈ 0.9988
+Precision ≈ 0.6212
+Recall ≈ 0.8367
+F1 ≈ 0.7130
+ROC AUC ≈ 0.9473
 
 ---
 
