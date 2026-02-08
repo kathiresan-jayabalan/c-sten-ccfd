@@ -6,10 +6,7 @@ We use the public **Credit Card Fraud Detection** dataset (European card transac
 ## Usage
 
 **Full dataset**:  
-Download `creditcard.csv` from Kaggle and place it in this `data/` directory:
-
-data/creditcard.csv
-data/README.md
+Download `creditcard.csv` from Kaggle and place it in this `data/` directory: data/creditcard.csv
 
 **Sample data**:  
 Use `creditcard.csv` (included as sample in repo) for testing the notebook without downloading the full dataset.
@@ -21,4 +18,3 @@ Use `creditcard.csv` (included as sample in repo) for testing the notebook witho
 3. **Update notebook path** if needed (currently expects `/content/drive/MyDrive/credit card /creditcard.csv` in Colab).
 
 **Note**: Sample data allows pipeline testing but **will not reproduce exact paper results**.
-
