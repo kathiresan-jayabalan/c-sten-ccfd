@@ -127,10 +127,11 @@ This project is licensed under the Apache License 2.0.
 
 If you use this repository in academic or research work, please cite:
 
+```bibtex
 @misc{csten_ccfd_repo,
-  author = {Kathiresan Jayabalan},
-  title = {C-STEN-CCFD: Contrastive Spatio-Temporal Deep Learning for Credit Card Fraud Detection},
-  year = {2026},
-  howpublished = { https://github.com/kathiresan-jayabalan/c-sten-ccfd },
-  note = {Apache-2.0 licensed code repository}
+  author       = {Kathiresan Jayabalan},
+  title        = {C-STEN-CCFD: Contrastive Spatio-Temporal Deep Learning for Credit Card Fraud Detection},
+  year         = {2026},
+  howpublished = {https://github.com/kathiresan-jayabalan/c-sten-ccfd},
+  note         = {Apache-2.0 licensed code repository}
 }
