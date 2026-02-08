@@ -109,11 +109,11 @@ Plots such as training loss curves and ROC curves may be displayed inline during
 
 Example performance values observed during testing include high accuracy and strong recall for the minority (fraud) class. Exact results depend on thresholds and experimental settings.
 
-Accuracy ≈ 0.9988
-Precision ≈ 0.6212
-Recall ≈ 0.8367
-F1 ≈ 0.7130
-ROC AUC ≈ 0.9473
+- Accuracy ≈ 0.9988
+- Precision ≈ 0.6212
+- Recall ≈ 0.8367
+- F1 ≈ 0.7130
+- ROC AUC ≈ 0.9473
 
 ---
 
