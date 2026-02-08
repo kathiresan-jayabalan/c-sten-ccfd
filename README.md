@@ -126,6 +126,6 @@ If you use this repository in academic or research work, please cite:
   author = {Kathiresan Jayabalan},
   title = {C-STEN-CCFD: Contrastive Spatio-Temporal Deep Learning for Credit Card Fraud Detection},
   year = {2026},
-  howpublished = {https://github.com/kathiresan-jayabalan/c-sten-ccfd},
+  howpublished = { https://github.com/kathiresan-jayabalan/c-sten-ccfd },
   note = {Apache-2.0 licensed code repository}
 }
