@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18529995.svg)](https://doi.org/10.5281/zenodo.18529995)
+
 # C-STEN-CCFD  
 Contrastive Spatio-Temporal Deep Learning for Credit Card Fraud Detection
 
@@ -127,11 +129,6 @@ This project is licensed under the Apache License 2.0.
 
 If you use this repository in academic or research work, please cite:
 
-```bibtex
-@misc{csten_ccfd_repo,
-  author       = {Kathiresan Jayabalan},
-  title        = {C-STEN-CCFD: Contrastive Spatio-Temporal Deep Learning for Credit Card Fraud Detection},
-  year         = {2026},
-  howpublished = {https://github.com/kathiresan-jayabalan/c-sten-ccfd},
+Jayabalan, K. (2026). *C-STEN-CCFD: Contrastive Spatio-Temporal Ensemble Network for Credit Card Fraud Detection*. Zenodo. https://doi.org/10.5281/zenodo.18529995
   note         = {Apache-2.0 licensed code repository}
 }
