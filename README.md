@@ -130,5 +130,3 @@ This project is licensed under the Apache License 2.0.
 If you use this repository in academic or research work, please cite:
 
 Jayabalan, K. (2026). *C-STEN-CCFD: Contrastive Spatio-Temporal Ensemble Network for Credit Card Fraud Detection*. Zenodo. https://doi.org/10.5281/zenodo.18529995
-  note         = {Apache-2.0 licensed code repository}
-}
