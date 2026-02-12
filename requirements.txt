@@ -1,12 +1,25 @@
-numpy
-pandas
-scikit-learn
-matplotlib
-seaborn
-torch
-torchvision
-torchaudio
-tqdm
-ipywidgets
-jupyterlab
-pyyaml
+# Core numerical / data stack
+numpy          # N-dimensional arrays, vectorized math, random utilities
+pandas         # DataFrames, CSV loading, tabular preprocessing
+
+# Classical ML / metrics / scaling
+scikit-learn   # train/test split, scalers, metrics, classical ML tools
+
+# Visualization
+matplotlib     # Base plotting library for static figures
+seaborn        # Statistical plotting on top of matplotlib (heatmaps, distributions)
+
+# Deep learning (PyTorch ecosystem)
+torch          # Core deep learning framework, tensors, autograd, CUDA
+torchvision    # Vision utilities, image transforms, pretrained CNNs
+torchaudio     # Audio utilities, transforms, datasets
+
+# Progress bars / interactivity
+tqdm           # Progress bars for loops and training epochs
+ipywidgets     # Interactive widgets in Jupyter (sliders, dropdowns, etc.)
+
+# Notebook / IDE
+jupyterlab     # Jupyter-based IDE for running and editing notebooks
+
+# Configuration
+pyyaml         # YAML parsing/serialization for experiment and model configs
