@@ -12,6 +12,7 @@ authors:
     given-names: Kathiresan
     affiliation: "Research Scholar, Sathyabama Institute of Science and Technology, Chennai, Tamil Nadu, India"
     email: kathiresan.jayabalan@gmail.com
+    orcid: "https://orcid.org/0009-0006-0902-772X"
 
 keywords:
   - credit card fraud detection
@@ -20,3 +21,5 @@ keywords:
   - ensemble learning
   - financial security
   - machine learning
+
+abstract: "A novel credit card fraud detection framework based on Contrastive Spatial-Temporal Embedding Networks (C-STEN). The model integrates spatial features (transaction locations, merchant categories, device fingerprints) with temporal patterns (transaction sequences, time intervals, velocity features) through a contrastive learning paradigm. C-STEN learns to maximize agreement between different augmented views of the same transaction while distinguishing fraudulent from legitimate patterns, enabling effective detection in the presence of evolving fraud tactics and severe class imbalance."
