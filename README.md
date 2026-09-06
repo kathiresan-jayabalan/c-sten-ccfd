@@ -3,7 +3,7 @@
 # C-STEN-CCFD  
 Contrastive Spatio-Temporal Deep Learning for Credit Card Fraud Detection
 
-This repository provides a **Jupyter Notebook** implementation of a Contrastive Spatio‑Temporal deep learning pipeline (C‑STEN) for **credit card fraud detection and evaluation** using the public Kaggle `creditcard.csv` dataset.
+This repository provides a **Jupyter Notebook** implementation of a Contrastive Spatio‑Temporal deep learning pipeline (C‑STEN) for **credit card fraud detection and evaluation** using the public Kaggle `creditcard.csv` dataset. Parallel spatial and temporal Transformer branches with gated fusion.
 
 **Main artifact:** `notebooks/c-sten-ccfd.ipynb`
 
