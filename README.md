@@ -11,13 +11,10 @@ This repository provides a **Jupyter Notebook** implementation of a Contrastive 
 
 **Paper:** C-STEN: Contrastive Spatial-Temporal Embedding Network for Robust Credit Card Fraud Detection
 
-**Publication:** 2025 IEEE 1st International Conference on Recent Trends in Computing and Smart Mobility (RCSM 2025)
-
-**DOI:** [10.1109/RCSM67767.2025.11508016](https://doi.org/10.1109/RCSM67767.2025.11508016)
-
-**Authors:** Kathiresan Jayabalan and Sethuraman Radhakrishnan
-
-**Best Paper Award:** https://www.rcsm2025.com/best_paper_award/index.html
+- **Authors:** Kathiresan Jayabalan and Sethuraman Radhakrishnan
+- **Publication:** 2025 IEEE 1st International Conference on Recent Trends in Computing and Smart Mobility (RCSM 2025)
+- **Recognition:** **[Best Paper Award, RCSM 2025] (https://www.rcsm2025.com/best_paper_award/index.html)**
+- **DOI:** [10.1109/RCSM67767.2025.11508016](https://doi.org/10.1109/RCSM67767.2025.11508016)
 
 ---
 
