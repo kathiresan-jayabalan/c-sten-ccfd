@@ -13,7 +13,7 @@ This repository provides a **Jupyter Notebook** implementation of a Contrastive 
 
 - **Authors:** Kathiresan Jayabalan and Sethuraman Radhakrishnan
 - **Publication:** 2025 IEEE 1st International Conference on Recent Trends in Computing and Smart Mobility (RCSM 2025)
-- **Recognition:** **[Best Paper Award, RCSM 2025] (https://www.rcsm2025.com/best_paper_award/index.html)**
+- **Recognition:** **[Best Paper Award, RCSM 2025](https://www.rcsm2025.com/best_paper_award/index.html)**
 - **DOI:** [10.1109/RCSM67767.2025.11508016](https://doi.org/10.1109/RCSM67767.2025.11508016)
 
 ---
